@@ -21,6 +21,7 @@
   align-items: center;
   margin-top: 50px;
 }
+
 .btn {
   padding: 17px 26px 17px 26px;
   color: rgb(255, 255, 255);
@@ -33,6 +34,9 @@
   border-radius: 8px;
   border: none;
   background: rgb(82, 195, 3);
+  cursor: pointer;
+
+
 }
 
 /* hero section styles */
@@ -60,7 +64,7 @@
   color: rgb(255, 255, 255);
   font-family: Work Sans;
   font-size: 26px;
-  font-weight: 480;
+  font-weight: 600;
   line-height: 30px;
   letter-spacing: 0%;
   text-align: center;
@@ -71,7 +75,7 @@
   color: rgb(255, 255, 255);
   font-family: Work Sans;
   font-size: 51px;
-  font-weight: 560;
+  font-weight: 700;
   line-height: 64px;
   letter-spacing: 0%;
   text-align: center;
@@ -82,9 +86,109 @@
   color: rgb(255, 255, 255);
   font-family: Work Sans;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 26px;
 }
+
+/* card-box styles */
+#card-box {
+  width: 1056px;
+  margin: 134px auto;
+}
+
+#card-box .container .taitle {
+  margin: 0 252px 38px 252px;
+}
+
+#card-box .hedding-taitle {
+  margin-top: 35px;
+}
+
+#card-box .container .taitle .subtaitle {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#card-box .container .taitle .hedding-taitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 103px;
+
+}
+
+.card .card-img {
+  width: 100%;
+  height: 226px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 32px 0px;
+  border-radius: 13px;
+}
+
+.card .card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-text {
+  width: 100%;
+  height: 166px;
+}
+
+.card .card-text .shop {
+  border-radius: 86x;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 11px 26px 11px 26px;
+  margin-top: 25px;
+}
+
+.card-text h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin:19px 0px;
+}
+.card-text p{
+  opacity: 0.7;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+ 
