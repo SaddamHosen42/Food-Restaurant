@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* button styles */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.btn {
+  padding: 17px 26px 17px 26px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 480;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  background: rgb(82, 195, 3);
+}
+
+/* hero section styles */
+#hero {
+  background: linear-gradient(0.00deg, rgb(9, 9, 9) 2.884%, rgba(16, 16, 16, 0) 101.034%), url('../assets/hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1536px;
+  height: 736px;
+  left: 1536px;
+  top: 736px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .hero-content {
+  width: 818px;
+
+}
+
+#hero .hero-content .subtitle {
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 26px;
+  font-weight: 480;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+#hero .hero-content .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 51px;
+  font-weight: 560;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+#hero .hero-content .description {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 26px;
+}
